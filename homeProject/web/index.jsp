@@ -9,8 +9,10 @@
 <body>
 <%@ include file="header.jsp" %>
 <hr>
-안녕하세요 ^^
-
+<h1 align="center"> 오예!</h1>
+<div align="center">
+<img src="image/famliy.jpg">
+</div>
 <hr>
 <%@ include file="footer.jsp" %>
 </body>
