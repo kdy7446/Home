@@ -5,14 +5,23 @@
 <head>
 <meta charset="UTF-8">
 <title>메인</title>
+<style type="text/css">
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+	h1{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 50px;
+	}
+</style>
 </head>
 <body>
 <%@ include file="header.jsp" %>
+<br>
 <hr>
-<h1 align="center"> 오예!</h1>
+<h1 align="center"> 우리가족</h1>
 <div align="center">
-<img src="image/famliy.jpg">
+<img src="image/family.jpg">
 </div>
+<br>
 <hr>
 <%@ include file="footer.jsp" %>
 </body>

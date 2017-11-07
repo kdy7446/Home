@@ -5,6 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>아래 고정 </title>
+<style type="text/css">
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+	h1{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 50px;
+	}
+</style>
 </head>
 <body>
 <div align="center" style="background-color:pink; color:white;">

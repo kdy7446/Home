@@ -35,8 +35,8 @@
 	 color: white; 
 	 background-color: gray; 
 	 } 
+	 
 </style>
-
 
 </head>
 <body>
