@@ -1,5 +1,11 @@
+
+<%@page import="member.model.vo.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+<%
+	Member member = (Member)session.getAttribute("member");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,6 +46,7 @@
 
 </head>
 <body>
+<header>
 	<nav id="topMenu">
 		<ul>
 			<li><a class="menuLink" href="views/family/family.jsp">Family</a></li>
@@ -49,7 +56,15 @@
 			<li><a class="menuLink" href="views/board/board.jsp">board</a></li>
 		</ul>
 	</nav>
-
+</header>
+<div>
+<% if(member == null) %>
+<form action="login" method="post">
+<input type="text" name="userid" placeholder="아이디 입력"/>
+<input type="password" name="userpwd" placeholder="비밀번호 입력 "/>
+<input type="submit" value="로그인"/>
+</form>
+</div>
 
 
 </body>
